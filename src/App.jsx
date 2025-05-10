@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Login from './components/Login'
 import { BrowserRouter } from "react-router-dom";
+import Users from './components/Users'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <BrowserRouter>
-    <Login/>
+    <Users/>
     </BrowserRouter>
   )
 }

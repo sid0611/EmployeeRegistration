@@ -40,7 +40,7 @@ const Login = () => {
         headers: {
           'x-api-key': 'reqres-free-v1'  // Include your API key here
         }
-      });
+      });   
 
       // Save token to localStorage
       localStorage.setItem('token', response.data.token);
